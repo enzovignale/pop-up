@@ -1,4 +1,4 @@
-document.querySelector("#open-popup").addEventListener("click",function(){
+document.querySelector("#open-popup").addEventListener("click",()=>{
   document.querySelector(".popup").classList.add("active");
 });
 
